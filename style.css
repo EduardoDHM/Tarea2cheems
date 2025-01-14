@@ -1,0 +1,160 @@
+
+*
+{
+  padding: 0;   
+  margin: 0;
+}
+
+
+body
+{
+    background: rgb(201, 201, 203) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Banner
+{
+    text-align: center;
+    background-image: url('Imagenes/Huellas.jpg');
+    color: #FFFFFF;
+    padding: 20px;
+    height: 60px;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+
+
+.options
+{
+    background-color: #757575;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+nav li
+{
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid black;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 300px;
+    
+}
+
+nav li:hover
+{
+    background-color: black;
+}
+
+.Contenido
+{
+    display: flex;
+    margin: 60px;
+
+}
+
+
+
+
+.titulos
+{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+
+
+.ficha
+{
+    display: block;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+#datos
+{
+    text-align: center;
+    font-size: large;
+    
+}
+
+.negrita
+{
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+.normal
+{
+    display: inline-block;
+}
+
+
+.articulo
+{
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+.Descripcion
+{
+    align-items: center;
+    padding: 2%;
+    text-align: justify;
+    background: beige;
+    border: 2px solid black;
+    height: 50%;
+    border-radius: 60px;
+    margin: 2%;
+}
+
+.MenuSecundario
+{
+    
+    border: 2px solid black;
+    padding: 1%;
+    background: rgb(88, 88, 94);
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    
+}
+
+.lef
+{
+    display: block;
+    align-items: center;
+    margin-top: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
